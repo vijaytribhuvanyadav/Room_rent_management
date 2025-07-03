@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delete Room Data</title>
+
+</head>
+<body>
+    <h2>Delete Room Rent Data</h2>
+    <form action="DeleteServlet" method="post">
+        <label>Room No (1-8):</label><br>
+        <input type="number" name="roomNo" min="1" max="8" required><br><br>
+
+        <label>Record ID:</label><br>
+        <input type="number" name="id" required><br><br>
+
+        <input type="submit" value="Delete">
+    </form>
+    <br>
+    <a href="index.html">← Back to Home</a>
+</body>
+</html>
